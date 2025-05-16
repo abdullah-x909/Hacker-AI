@@ -27,7 +27,7 @@ Hacker-AI is a powerful Python-based tool designed for **ethical hacking**. It l
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/abdullah-x909/Hacker-AI.git](https://github.com/abdullah-x909/Hacker-AI.git)
+    git clone https://github.com/abdullah-x909/Hacker-AI.git
     ```
 2.  Navigate to the project directory:
     ```bash
