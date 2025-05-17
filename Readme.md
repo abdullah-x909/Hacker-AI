@@ -1,79 +1,64 @@
-````
-# Hacker-AI: Your '80s Cyber Companion
+The GitHub repository abdullah-x909/Hacker-AI hosts a terminal-style AI assistant designed to emulate the feel of classic '80s hacker movies. Built with modern web technologies like TypeScript, Vite, and Tailwind CSS, it offers a nostalgic yet functional interface for users interested in a retro computing experience.
+🧰 Features
 
-Get ready to jack into the digital past! **Hacker-AI** is a web-based AI assistant that channels the spirit of classic '80s hacker movies. It's built with modern web tech to deliver a nostalgic, engaging, and unique AI experience.
+    Retro Persona: Interact with an AI that communicates in the style of '80s cyberpunk characters.
 
----
+    Browser-Based: Runs entirely in the browser; no additional installations required.
 
-## 🚀 Features
+    Modern Tech Stack: Utilizes TypeScript, Vite, and Tailwind CSS for a smooth development and user experience.
 
-* **Retro Persona:** Interact with an AI that talks like your favorite '80s cyber-punks.
-* **Browser-Based:** No fancy hardware needed, just a web browser.
-* **Cutting-Edge Stack:** Powered by **TypeScript**, **Vite**, and **Tailwind CSS** for a smooth, stable ride.
+🚀 Installation & Usage
 
----
+To set up and run the application locally:
 
-## 🛠️ Tech Under the Hood
+    Clone the Repository:
 
-* **Frontend:** TypeScript, Vite, Tailwind CSS
-* **Build Tools:** PostCSS, ESLint
-* **Config:** Vite (bundling), Tailwind (styling)
-
----
-
-## 💻 Get It Running
-
-1.  **Clone the Repo:**
-    ```bash
-    git clone [https://github.com/abdullah-x909/Hacker-AI.git](https://github.com/abdullah-x909/Hacker-AI.git)
+    git clone https://github.com/abdullah-x909/Hacker-AI.git
     cd Hacker-AI
-    ```
 
-2.  **Install Dependencies:**
-    ```bash
+    Install Dependencies:
+
     npm install
-    ```
 
-3.  **Start Dev Server:**
-    ```bash
+    Start the Development Server:
+
     npm run dev
-    ```
 
-4.  **Build for Production:**
-    ```bash
-    npm run build
-    ```
+    Access the Application:
+    Open your browser and navigate to http://localhost:5173 to interact with the AI assistant.
 
----
+📁 Project Structure
 
-## 📁 Project Layout
+    src/
 
-* `src/`: Main application code
-* `public/`: Static assets
-* `index.html`: The main web page
-* `vite.config.ts`: Vite setup
-* `tailwind.config.js`: Tailwind CSS config
-* `eslint.config.js`: ESLint rules
+        components/
 
----
+            Terminal.tsx
 
-## ⚖️ License
+            CommandInput.tsx
 
-This project operates under a **Non-Commercial Use License**. Feel free to use, modify, and distribute it for personal, educational, or research purposes. Just make sure to include the license statement. Commercial use is a no-go.
+            CommandOutput.tsx
 
-Check `LICENSE.md` for the full rundown.
+        contexts/
 
----
+            AIAssistantContext.tsx
 
-## 🙏 Contribute
+        utils/
 
-Got a killer idea or a bug fix? Fork the repo and send a pull request! Your contributions help keep the '80s alive.
+            commands.ts
 
----
+        App.tsx
 
-## 📧 Connect
+        index.css
 
-For any questions, feedback, or just to chat about the good old days of hacking, reach out to @abdullah-x909.
+    public/
 
-Ready to hack the mainframe?
-````
+        site.webmanifest
+
+    index.html
+
+📄 License
+
+This project is licensed under the MIT License. See the LICENSE.md file for details.
+
+Feel free to explore and modify the project to suit your needs. If you have any questions or need further assistance, don't hesitate to ask!
